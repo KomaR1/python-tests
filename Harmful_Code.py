@@ -14,7 +14,7 @@ def output(event):
 root = Tk()
 root.title("Сколько вам лет?")
 
-entry1 = Entry(root, width=70, font=15)
+entry1 = Entry(root, width=4, font=15)
 button1 = Button(root, text="Проверить")
 label1 = Label(root, width=44, font=15)
 label2 = Label(root, width=2, font=20)
