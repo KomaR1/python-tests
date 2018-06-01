@@ -4,8 +4,8 @@ def square(side):
     P = side * 4
     A = side * side
     D = math.sqrt(2) * side
-    t = (P,S,D)
+    t = (P,A,D)
     print(t)
 print("Enter the side of square")
-side = float(input())
-square(5)
+i = float(input())
+square(i)
